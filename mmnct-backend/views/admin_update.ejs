@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MMNCT Admin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <form action ="/admin/update" method ="post">
+            <label for="">Enter the match ID:</label>
+      <br><input type="text" name="matchID" autocomplete="off"value=<%=matchID %>>
+      <br><label for="">Enter Team1 Run in this ball:</label>
+            <br><input type="text" name="team1Run"autocomplete="off">
+      <br><label for="">Enter Team2 Run in this ball:</label>
+            <br><input type="text" name="team2Run"autocomplete="off">
+      <br><label>Is match Finished ?</label>
+      <input type="checkbox" id="isFinished" name="isFinished" />
+      <br><label>Enter the comments to Publish ...</label>
+      <br><textarea id="finalComment" name="finalComment"autocomplete="off" /><%=comment %></textarea>
+      <br><input type="submit" formaction="/admin/update" value="Update Match">
+    </form>
+  </body>
+</html>

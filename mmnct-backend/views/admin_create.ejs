@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MMNCT Admin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <form action ="/admin/create" method ="post">
+            <label for="">Create a Unique ID:</label>
+            <br><input type="text" name="ID" autocomplete="off">
+      <br><label for="">Enter Date and Time of match :</label>
+            <br><input type="datetime-local" name="dateTime">
+     
+            <br><label for="">Team1 Name</label>
+                <select name="Team1ID">
+                  <option value="IMMORTALS">IMMORTALS</option>
+                  <option value="SHAOLIN MONKS">SHAOLIN MONKS</option>
+                  <option value="BELONIANS" >BELONIANS</option>
+                  <option value="AVENGERS">AVENGERS</option>
+                  <option value="VENGEANCE" >VENGEANCE</option>
+                  <option value="HERCULEANS">HERCULEANS</option>
+                  <option value="VALKAYRIES">VALKAYRIES</option>
+                  <option value="SCORPIANS">SCORPIANS</option>
+                  <option value="SPARTANS">SPARTANS</option>
+                  <option value="KNIGHT TEMPLERS">KNIGHT TEMPLERS</option>
+                  <option value="ATHENIANS">ATHENIANS</option>
+                  <option value="ASSYRIANS">ASSYRIANS</option>
+                  <option value="NINJAS">NINJAS</option>
+                  <option value="VIKINGS">VIKINGS</option>
+                  <option value="SAMARTIANS" >SAMARTIANS</option>
+                  <option value="AMORITES">AMORITES</option>
+                  <option value="SUMERIANS">SUMERIANS</option>
+                  <option value="AMAZONS">AMAZONS</option>
+                  <option value="AKKADIANS">AKKADIANS</option>
+                  <option value="SAMURAI">SAMURAI</option>
+                  
+                </select>
+             <br><label for="">Team2 Name</label>
+                <select name="Team2ID">
+                  <option value="IMMORTALS">IMMORTALS</option>
+                  <option value="SHAOLIN MONKS">SHAOLIN MONKS</option>
+                  <option value="BELONIANS" >BELONIANS</option>
+                  <option value="AVENGERS">AVENGERS</option>
+                  <option value="VENGEANCE" >VENGEANCE</option>
+                  <option value="HERCULEANS">HERCULEANS</option>
+                  <option value="VALKAYRIES">VALKAYRIES</option>
+                  <option value="SCORPIANS">SCORPIANS</option>
+                  <option value="SPARTANS">SPARTANS</option>
+                  <option value="KNIGHT TEMPLERS">KNIGHT TEMPLERS</option>
+                  <option value="ATHENIANS">ATHENIANS</option>
+                  <option value="ASSYRIANS">ASSYRIANS</option>
+                  <option value="NINJAS">NINJAS</option>
+                  <option value="VIKINGS">VIKINGS</option>
+                  <option value="SAMARTIANS" >SAMARTIANS</option>
+                  <option value="AMORITES">AMORITES</option>
+                  <option value="SUMERIANS">SUMERIANS</option>
+                  <option value="AMAZONS">AMAZONS</option>
+                  <option value="AKKADIANS">AKKADIANS</option>
+                  <option value="SAMURAI">SAMURAI</option>
+                  
+                </select>
+      <br><label for="">Enter Category :</label>
+            <br><select name="category">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+      <br><input type="submit" formaction="/admin/create" value="Create Match">
+    </form>
+  </body>
+</html>
